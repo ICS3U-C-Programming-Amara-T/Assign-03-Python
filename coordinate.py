@@ -9,3 +9,8 @@
 def main():
     # Greeting
     print("Hello! Let's find the quadrant of a coordinate!")
+
+     # Ask user for x and y coordinates
+    x_as_string = input("Enter the x coordinate: ")
+    y_as_string = input("Enter the y coordinate: ")
+    print("")
