@@ -23,3 +23,7 @@ def main():
         print("The coordinates {}, {} are in quadrant 1.".format(x_as_number, y_as_number))
     elif x_as_number < 0 and y_as_number > 0:
         print("The coordinates {}, {} are in quadrant 2.".format(x_as_number, y_as_number))
+    elif x_as_number < 0 and y_as_number < 0:
+        print("The coordinates {}, {} are in quadrant 3.".format(x_as_number, y_as_number))
+    elif x_as_number > 0 and y_as_number < 0:
+        print("The coordinates {}, {} are in quadrant 4.".format(x_as_number, y_as_number))
