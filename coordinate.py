@@ -6,3 +6,6 @@
 
 # This is a program that finds out what quadrant each coordinate lies 
 
+def main():
+    # Greeting
+    print("Hello! Let's find the quadrant of a coordinate!")
