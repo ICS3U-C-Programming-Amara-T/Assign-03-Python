@@ -19,11 +19,16 @@ def main():
     try:
         x_as_number = int(x_as_string)
         y_as_number = int(y_as_string)
-    if x_as_number > 0 and y_as_number > 0:
-        print("The coordinates {}, {} are in quadrant 1.".format(x_as_number, y_as_number))
-    elif x_as_number < 0 and y_as_number > 0:
-        print("The coordinates {}, {} are in quadrant 2.".format(x_as_number, y_as_number))
-    elif x_as_number < 0 and y_as_number < 0:
-        print("The coordinates {}, {} are in quadrant 3.".format(x_as_number, y_as_number))
-    elif x_as_number > 0 and y_as_number < 0:
-        print("The coordinates {}, {} are in quadrant 4.".format(x_as_number, y_as_number))
+        if x_as_number > 0 and y_as_number > 0:
+            print("The coordinates {}, {} are in quadrant 1.".format(x_as_number, y_as_number))
+        elif x_as_number < 0 and y_as_number > 0:
+            print("The coordinates {}, {} are in quadrant 2.".format(x_as_number, y_as_number))
+        elif x_as_number < 0 and y_as_number < 0:
+            print("The coordinates {}, {} are in quadrant 3.".format(x_as_number, y_as_number))
+        elif x_as_number > 0 and y_as_number < 0:
+            print("The coordinates {}, {} are in quadrant 4.".format(x_as_number, y_as_number))
+        else:
+                print("This point doesn't exist")
+
+    except :
+        print("That was not a number.")
