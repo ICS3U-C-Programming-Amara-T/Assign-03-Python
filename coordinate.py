@@ -14,3 +14,8 @@ def main():
     x_as_string = input("Enter the x coordinate: ")
     y_as_string = input("Enter the y coordinate: ")
     print("")
+
+    # Check which quadrate the coordinate resides
+    try:
+        x_as_number = int(x_as_string)
+        y_as_number = int(y_as_string)

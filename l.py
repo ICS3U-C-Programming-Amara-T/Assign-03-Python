@@ -15,6 +15,7 @@ def main():
     y_as_string = input("Enter the y coordinate: ")
     print("")
 
+    #
     try:
         x_as_number = int(x_as_string)
         y_as_number = int(y_as_string)
