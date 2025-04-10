@@ -32,3 +32,8 @@ def main():
 
     except :
         print("That was not a number.")
+
+    print("Thanks for playing!")
+
+if __name__ == "__main__":
+    main()
